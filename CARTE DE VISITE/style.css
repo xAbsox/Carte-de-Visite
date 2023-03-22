@@ -1,0 +1,129 @@
+/* Permet de bien collé en haut et évite un blanc en haut de la page*/
+body{
+  margin:0px;  
+  }
+
+/* Bandeau */
+  #header{    
+  height:200px;
+  background:rgba(0, 92, 132, 1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  }
+
+#avatar {
+  display: block;
+  background-color: rgba(0, 92, 132, 1);
+  height: 200px;
+  margin: auto;
+}
+
+/* Modification des Titre H1 */
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+/* Modification des Titre H2 */
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+/* Modification des paragraphes P */
+p {
+  font-size: 24px;
+}
+
+/* Modification des listes non ordonnées UL */
+ul {
+  font-size: 24px;
+}
+
+/* Modification du contenue situé entre les SPAN */
+span {
+  font-weight: bold;
+}
+
+/* Disposition FlexBox */
+.container {  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 250px;
+}
+
+/* Parametres des différents cadres */
+
+/* cadre principale card */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 600px;
+  max-height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* cadre secondaire card */
+.card-body {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+
+/* cadre principale motivation */
+.motivation {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* cadre secondaire motivation */
+.motivation-body {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  max-width: 400px;
+  padding: 20px;  
+  text-align: left;
+}
+
+
+
+/* cadre principale link */
+.link {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 600px;
+  max-height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* cadre secondaire link */
+.link-body {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: right;
+  max-width: 400px;
+  padding: 20px;
+  text-align: left;
+}
+
